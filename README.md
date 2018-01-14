@@ -7,7 +7,7 @@
 ## ToDo
 
 - [x] Deploy page using Netlify
-- [x] Support GitHub uploads in `static/images/``
+- [x] Support GitHub uploads in `static/images/`
 - [x] Display first 10 images only
 - [ ] Use *lazy loading* for more than 10 images
 
