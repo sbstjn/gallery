@@ -1,6 +1,14 @@
 {{ define "main" }}
   {{- $files := readDir "/static/images" -}}
 
+  <script>
+    var position = 10
+    var images = []
+    {{- range $files }}
+      images.push("/images{{ .Name | relURL }}")
+    {{- end}}
+  </script>
+
   <header>
     <h1>{{ .Title }}</h1>
   </header>
@@ -11,10 +19,12 @@
     <section id="gallery">
       {{- range first 10 $files }}
       <figure>
-        <img src="/images/{{ .Name | relURL }}" />
+        <img src="/images{{ .Name | relURL }}" />
       </figure>
       {{- end}}
     </table>
   </div>
+
+  <script src="/scripts/main.js"></script>
 
 {{ end }}
