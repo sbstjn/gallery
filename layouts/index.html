@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{- $files := readDir "/static/images" -}}
+
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <div class="wrapper">
+    {{ .Content }}
+
+    <section id="gallery">
+      {{- range first 10 $files }}
+      <figure>
+        <img src="/images/{{ .Name | relURL }}" />
+      </figure>
+      {{- end}}
+    </table>
+  </div>
+
+{{ end }}

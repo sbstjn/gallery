@@ -1,0 +1,17 @@
+DefaultContentLanguage: en
+baseURL: /
+
+disableHugoGeneratorInject: true
+
+disableKinds:
+  - RSS
+  - 404
+
+params:
+  robots: INDEX, FOLLOW
+
+enableRobotsTXT: true
+
+taxonomies:
+  tag: ''
+  category: ''

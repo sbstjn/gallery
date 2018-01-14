@@ -1,0 +1,51 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+html, body
+  width: 100%
+  height: 100%
+  background: #f1f1f1
+
+.wrapper
+  padding: 0 25px
+  margin: 0 auto
+  max-width: 800px
+
+  @media all and (min-width: 1100px)
+    max-width: 1000px
+
+h1
+  font-family: Josefin Sans
+  font-weight: 700
+  font-size: 42px
+  line-height: 140px
+  text-align: center
+
+p
+  font-family: Raleway
+  font-weight: 400
+  font-size: 19px
+  line-height: 29px
+  color: #272727
+
+#gallery
+  width: 100%
+  text-align: center
+  -webkit-column-count: 1
+  column-gap: 20px
+  padding-top: 40px
+
+  @media all and (min-width: 620px)
+    -webkit-column-count: 2
+  @media all and (min-width: 1080px)
+    -webkit-column-count: 3
+
+  figure
+    display: inline-block
+    padding-bottom: 20px
+
+    img
+      width: 100%
+      display: block
