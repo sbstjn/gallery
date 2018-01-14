@@ -1,6 +1,8 @@
-# Gallery - [![license](https://img.shields.io/github/license/sbstjn/gallery.svg)](https://github.com/sbstjn/gallery/blob/master/LICENSE.md)
+# Gallery
 
-go.com) and [Netlify](https://netlify.com).
+> Zero-Maintenance Photo Gallery using [hugo](https://gohugo.com) and [Netlify](https://netlify.com).
+
+> Preview: https://cranky-morse-79acc7.netlify.com
 
 ## ToDo
 
