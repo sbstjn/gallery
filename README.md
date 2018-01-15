@@ -1,6 +1,6 @@
 # Gallery
 
-> Zero-Maintenance Photo Gallery using [hugo](https://gohugo.com) and [Netlify](https://netlify.com).
+Zero-Maintenance Photo Gallery using [hugo](https://gohugo.com) and [Netlify](https://netlify.com).
 
 > Preview: https://cranky-morse-79acc7.netlify.com
 
