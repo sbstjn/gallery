@@ -39,7 +39,7 @@ $ > make scripts-watch
 - [x] Deploy page using Netlify
 - [x] Support GitHub uploads in `static/images/`
 - [x] Display first 10 images only
-- [ ] Use *lazy loading* for more than 10 images
+- [ ] Use *lazy loading* for more than 10 images *(Still looking for a slick solution without much custom JavaScript)*
 
 ## Usage
 
