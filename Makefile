@@ -1,3 +1,8 @@
+install:
+	brew install hugo
+	bundle install
+	npm install
+
 styles:
 	sass --style compressed source/styles/main.sass static/styles/main.css
 
